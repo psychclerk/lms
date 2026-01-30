@@ -1,7 +1,7 @@
 import streamlit as st
 from auth import login
 from db import init_db
-from topics import topic1, topic2, topic3
+from topics import topic1
 
 init_db()
 
